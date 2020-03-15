@@ -63,7 +63,28 @@ body {
   padding: 15px;
 }
 
+.landing-image {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.landing-image h1 {
+  position: absolute;
+  top: 30vh;
+  bottom: 40vh;
+  left: 30vw;
+  font-size: 54px;
+}
+
+.landing-image-h3 {
+  position: absolute;
+  top: 45vh;
+  left: 10vw;
+  font-size: 24px;
+}
+
 .landing-image img {
-  width: 100vw;
+  width: 100%;
   height: 80vh;
 }
