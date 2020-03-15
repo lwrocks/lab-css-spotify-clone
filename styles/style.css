@@ -10,6 +10,15 @@ White: #FFF
 /* Import Roboto */
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 
+/* Import Roboto Light 100 */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+
+/* Import Roboto Black 900 */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap);
+
+/* Import Roboto Bold 700  */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap);
+
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +31,10 @@ body {
 }
 
 .logo img {
-  height: 12vh;
+  height: 14vh;
   width: 20vw;
+  padding-top: 10px;
+  padding-left: 7px;
 }
 
 .navigation {
@@ -35,4 +46,24 @@ body {
 .navigation-links {
   display: flex;
   padding: 30px;
+}
+
+.navigation-links a {
+  color: #1a1a1a;
+  font-weight: 100;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation-links a:hover {
+  color: #00b172;
+}
+
+.navigation-links div {
+  padding: 15px;
+}
+
+.landing-image img {
+  width: 100vw;
+  height: 80vh;
 }
