@@ -6,3 +6,33 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Import Roboto */
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.logo img {
+  height: 12vh;
+  width: 20vw;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navigation-links {
+  display: flex;
+  padding: 30px;
+}
